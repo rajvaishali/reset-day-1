@@ -1,0 +1,37 @@
+HTML Day 1
+
+HTML (HyperText Markup Language) is a markup language that tells web browsers how to structure the web pages you visit.
+
+Nesting elements
+Elements can be placed within other elements. This is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word very in a <strong> element, which means that the word is to have strong(er) text formatting:
+
+Void elements
+Not all elements follow the pattern of an opening tag, content, and a closing tag. Some elements consist of a single tag, which is typically used to insert/embed something in the document. Such elements are called void elements. For example, the <img> element embeds an image file onto a page:
+
+What's in the head? Metadata in HTML
+
+
+The head of an HTML document is the part that is not displayed in the web browser when the page is loaded. It contains information such as the page <title>, links to CSS (if you choose to style your HTML content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and important keywords that describe the document).
+
+Title
+
+The h1 element appears on the page when loaded in the browser — generally this should be used once per page, to mark up the title of your page content (the story title, or news headline, or whatever is appropriate to your usage.)
+The <title> element is metadata that represents the title of the overall HTML document (not the document's content.)
+
+Metadata
+Metadata is data that describes data, and HTML has an "official" way of adding metadata to a document — the <meta> element. Of course, the other stuff we are talking about in this article could also be thought of as metadata too.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
